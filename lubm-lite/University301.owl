@@ -1,0 +1,3742 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl#"
+     xml:base="file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ub="http://swat.cse.lehigh.edu/onto/univ-bench.owl#">
+    <owl:Ontology rdf:about="file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl">
+        <owl:imports rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress -->
+
+    <owl:AnnotationProperty rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress"/>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#name -->
+
+    <owl:AnnotationProperty rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#name"/>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchInterest -->
+
+    <owl:AnnotationProperty rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchInterest"/>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#telephone -->
+
+    <owl:AnnotationProperty rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#telephone"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff">
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty"/>
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor">
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair"/>
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor">
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair"/>
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair">
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student"/>
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff">
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean">
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director">
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty"/>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent">
+        <owl:disjointWith rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student"/>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff"/>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+    
+
+
+    <!-- http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor -->
+
+    <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.Department0.University0.edu -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department"/>
+        <ub:subOrganizationOf rdf:resource="http://www.University0.edu"/>
+        <ub:name>Department0</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.University0.edu -->
+
+    <owl:NamedIndividual rdf:about="http://www.University0.edu">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#University"/>
+        <ub:name>University0</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.University1.edu -->
+
+    <owl:NamedIndividual rdf:about="http://www.University1.edu">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#University"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.University102.edu -->
+
+    <owl:NamedIndividual rdf:about="http://www.University102.edu">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#University"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.University103.edu -->
+
+    <owl:NamedIndividual rdf:about="http://www.University103.edu">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#University"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.University107.edu -->
+
+    <owl:NamedIndividual rdf:about="http://www.University107.edu">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#University"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.University112.edu -->
+
+    <owl:NamedIndividual rdf:about="http://www.University112.edu">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#University"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/Course38"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/Course39"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse40"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor0@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor0</ub:name>
+        <ub:researchInterest>Research13</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse41"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor1@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor1</ub:name>
+        <ub:researchInterest>Research1</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:mastersDegreeFrom rdf:resource="http://www.University0.edu"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse42"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse43"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor2@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor2</ub:name>
+        <ub:researchInterest>Research15</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor3@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor3</ub:name>
+        <ub:researchInterest>Research12</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse45"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor4@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor4</ub:name>
+        <ub:researchInterest>Research8</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor5">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse46"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse47"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor5@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor5</ub:name>
+        <ub:researchInterest>Research29</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor6">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse48"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse49"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor6@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor6</ub:name>
+        <ub:researchInterest>Research25</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor7">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse50"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse51"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor7@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor7</ub:name>
+        <ub:researchInterest>Research20</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor8">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse52"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse53"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor8@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor8</ub:name>
+        <ub:researchInterest>Research11</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor9">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+        <ub:doctoralDegreeFrom rdf:resource="http://www.University107.edu"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse54"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse55"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>AssistantProfessor9@Department0.University0.edu</ub:emailAddress>
+        <ub:name>AssistantProfessor9</ub:name>
+        <ub:researchInterest>Research24</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Course0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Course0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"/>
+        <ub:name>Course0</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Course1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Course1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"/>
+        <ub:name>Course1</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Course10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Course10">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"/>
+        <ub:name>Course10</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Course34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Course34">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"/>
+        <ub:name>Course34</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Course35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Course35">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"/>
+        <ub:name>Course35</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Course36 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Course36">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"/>
+        <ub:name>Course36</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Course37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Course37">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"/>
+        <ub:name>Course37</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Course38 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Course38">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"/>
+        <ub:name>Course38</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Course39 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Course39">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"/>
+        <ub:name>Course39</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor0@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor0</ub:name>
+        <ub:researchInterest>Research20</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/Course1"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor1@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor1</ub:name>
+        <ub:researchInterest>Research12</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor2@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor2</ub:name>
+        <ub:researchInterest>Research28</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:doctoralDegreeFrom rdf:resource="http://www.University112.edu"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse5"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor3@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor3</ub:name>
+        <ub:researchInterest>Research12</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor4@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor4</ub:name>
+        <ub:researchInterest>Research7</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor5">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor5@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor5</ub:name>
+        <ub:researchInterest>Research18</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor6">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor6@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor6</ub:name>
+        <ub:researchInterest>Research10</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor7">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:headOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/Course10"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor7@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor7</ub:name>
+        <ub:researchInterest>Research3</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor8">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor8@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor8</ub:name>
+        <ub:researchInterest>Research26</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor9">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>FullProfessor9@Department0.University0.edu</ub:emailAddress>
+        <ub:name>FullProfessor9</ub:name>
+        <ub:researchInterest>Research5</ub:researchInterest>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse40 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse40">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse40</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse41">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse41</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse42 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse42">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse42</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse43 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse43">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse43</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse44">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse44</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse45 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse45">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse45</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse46 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse46">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse46</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse47 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse47">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse47</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse48 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse48">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse48</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse49 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse49">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse49</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse5">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse5</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse50">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse50</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse51 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse51">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse51</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse52 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse52">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse52</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse53 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse53">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse53</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse54 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse54">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse54</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse55 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse55">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse55</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse56 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse56">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse56</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse57 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse57">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse57</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse58 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse58">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse58</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateCourse63 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateCourse63">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse"/>
+        <ub:name>GraduateCourse63</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent11">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor5"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent11@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent11</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent110">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor5"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:teachingAssistantOf rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>GraduateStudent110@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent110</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent111">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor5"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent111@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent111</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent112">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent112@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent112</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent113 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent113">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse49"/>
+        <ub:emailAddress>GraduateStudent113@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent113</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent114">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor4"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent114@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent114</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent115 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent115">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor5"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent115@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent115</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent116">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor0"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse44"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse58"/>
+        <ub:emailAddress>GraduateStudent116@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent116</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent12">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor6"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse54"/>
+        <ub:emailAddress>GraduateStudent12@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent12</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent120">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor4"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse63"/>
+        <ub:emailAddress>GraduateStudent120@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent120</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent121 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent121">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor2"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent121@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent121</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent122 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent122">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor2"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent122@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent122</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent123 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent123">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor1"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent123@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent123</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent124 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent124">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor1"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent124@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent124</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent125 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent125">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse58"/>
+        <ub:emailAddress>GraduateStudent125@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent125</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent13">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent13@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent13</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent130 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent130">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor1"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:teachingAssistantOf rdf:resource="http://www.Department0.University0.edu/Course34"/>
+        <ub:undergraduateDegreeFrom rdf:resource="http://www.University1.edu"/>
+        <ub:emailAddress>GraduateStudent130@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent130</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent131 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent131">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor6"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse44"/>
+        <ub:emailAddress>GraduateStudent131@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent131</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent19">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent19@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent19</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor9"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse48"/>
+        <ub:teachingAssistantOf rdf:resource="http://www.Department0.University0.edu/Course35"/>
+        <ub:emailAddress>GraduateStudent2@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent2</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent20">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor2"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse49"/>
+        <ub:emailAddress>GraduateStudent20@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent20</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent21">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor7"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent21@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent21</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent22">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor9"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent22@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent22</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent23">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor7"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse42"/>
+        <ub:emailAddress>GraduateStudent23@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent23</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent24">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor1"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse40"/>
+        <ub:emailAddress>GraduateStudent24@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent24</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent25">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor5"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse55"/>
+        <ub:emailAddress>GraduateStudent25@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent25</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent30">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse54"/>
+        <ub:emailAddress>GraduateStudent30@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent30</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent31">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor8"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent31@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent31</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent36 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent36">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent36@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent36</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent37">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor2"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent37@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent37</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent38 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent38">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse55"/>
+        <ub:emailAddress>GraduateStudent38@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent38</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent39 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent39">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse50"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse53"/>
+        <ub:emailAddress>GraduateStudent39@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent39</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse57"/>
+        <ub:emailAddress>GraduateStudent4@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent4</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent40 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent40">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent40@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent40</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent41">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor8"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse5"/>
+        <ub:emailAddress>GraduateStudent41@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent41</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent85 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent85">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor5"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent85@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent85</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent86 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent86">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor1"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse58"/>
+        <ub:emailAddress>GraduateStudent86@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent86</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent87 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent87">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse42"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse51"/>
+        <ub:emailAddress>GraduateStudent87@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent87</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent88 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent88">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent88@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent88</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent89 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent89">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor8"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent89@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent89</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent90 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent90">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>GraduateStudent90@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent90</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent91 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent91">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor6"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse49"/>
+        <ub:emailAddress>GraduateStudent91@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent91</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent92 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent92">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse49"/>
+        <ub:emailAddress>GraduateStudent92@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent92</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/GraduateStudent99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/GraduateStudent99">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor6"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/GraduateCourse53"/>
+        <ub:emailAddress>GraduateStudent99@Department0.University0.edu</ub:emailAddress>
+        <ub:name>GraduateStudent99</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse56"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>Lecturer0@Department0.University0.edu</ub:emailAddress>
+        <ub:name>Lecturer0</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse57"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse58"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>Lecturer1@Department0.University0.edu</ub:emailAddress>
+        <ub:name>Lecturer1</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>Lecturer2@Department0.University0.edu</ub:emailAddress>
+        <ub:name>Lecturer2</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>Lecturer3@Department0.University0.edu</ub:emailAddress>
+        <ub:name>Lecturer3</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer"/>
+        <ub:teacherOf rdf:resource="http://www.Department0.University0.edu/GraduateCourse63"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>Lecturer4@Department0.University0.edu</ub:emailAddress>
+        <ub:name>Lecturer4</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer5">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>Lecturer5@Department0.University0.edu</ub:emailAddress>
+        <ub:name>Lecturer5</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer6">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer"/>
+        <ub:worksFor rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>Lecturer6@Department0.University0.edu</ub:emailAddress>
+        <ub:name>Lecturer6</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup5">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup6">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup7">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup8">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/ResearchGroup9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/ResearchGroup9">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"/>
+        <ub:subOrganizationOf rdf:resource="http://www.Department0.University0.edu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent0@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent0</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course38"/>
+        <ub:emailAddress>UndergraduateStudent1@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent1</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent10">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor6"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent10@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent10</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent100">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent100@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent100</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent101">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent101@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent101</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent102 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent102">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent102@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent102</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent105">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor8"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent105@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent105</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent106">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent106@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent106</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent107 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent107">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent107@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent107</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent108">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent108@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent108</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent109 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent109">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent109@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent109</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent11">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent11@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent11</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent110">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course37"/>
+        <ub:emailAddress>UndergraduateStudent110@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent110</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent111">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course35"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course37"/>
+        <ub:emailAddress>UndergraduateStudent111@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent111</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent112">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course39"/>
+        <ub:emailAddress>UndergraduateStudent112@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent112</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent113 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent113">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent113@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent113</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent114">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent114@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent114</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent115 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent115">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course39"/>
+        <ub:emailAddress>UndergraduateStudent115@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent115</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent116">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent116@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent116</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent12">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course10"/>
+        <ub:emailAddress>UndergraduateStudent12@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent12</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent120">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent120@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent120</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent121 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent121">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent121@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent121</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent122 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent122">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent122@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent122</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent129 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent129">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent129@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent129</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent13">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent13@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent13</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent130 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent130">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent130@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent130</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent131 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent131">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course10"/>
+        <ub:emailAddress>UndergraduateStudent131@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent131</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent132 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent132">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course36"/>
+        <ub:emailAddress>UndergraduateStudent132@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent132</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent133 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent133">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent133@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent133</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent134 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent134">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent134@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent134</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent135 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent135">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course10"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course37"/>
+        <ub:emailAddress>UndergraduateStudent135@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent135</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent136 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent136">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent136@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent136</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent137 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent137">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor1"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent137@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent137</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent138 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent138">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent138@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent138</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent139 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent139">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent139@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent139</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent14">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course38"/>
+        <ub:emailAddress>UndergraduateStudent14@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent14</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent140 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent140">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent140@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent140</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent148 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent148">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent148@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent148</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent149 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent149">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor3"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course35"/>
+        <ub:emailAddress>UndergraduateStudent149@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent149</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent15">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent15@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent15</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent150 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent150">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent150@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent150</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent151 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent151">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent151@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent151</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent152 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent152">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor4"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent152@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent152</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent153 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent153">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent153@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent153</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent154 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent154">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor3"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent154@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent154</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent155 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent155">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent155@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent155</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent156 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent156">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent156@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent156</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent157 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent157">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent157@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent157</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent158 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent158">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course1"/>
+        <ub:emailAddress>UndergraduateStudent158@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent158</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent159 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent159">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor7"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course10"/>
+        <ub:emailAddress>UndergraduateStudent159@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent159</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent16">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent16@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent16</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent160 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent160">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course37"/>
+        <ub:emailAddress>UndergraduateStudent160@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent160</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent161 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent161">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor7"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent161@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent161</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent162 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent162">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course36"/>
+        <ub:emailAddress>UndergraduateStudent162@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent162</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent163 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent163">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent163@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent163</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent164 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent164">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent164@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent164</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent165 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent165">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent165@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent165</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent166 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent166">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent166@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent166</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent167 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent167">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent167@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent167</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent168 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent168">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent168@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent168</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent169 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent169">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course36"/>
+        <ub:emailAddress>UndergraduateStudent169@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent169</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent17">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent17@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent17</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent170 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent170">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent170@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent170</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent215 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent215">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent215@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent215</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent216 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent216">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent216@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent216</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent217 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent217">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course39"/>
+        <ub:emailAddress>UndergraduateStudent217@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent217</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent218 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent218">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent218@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent218</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent219 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent219">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent219@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent219</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent22">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course35"/>
+        <ub:emailAddress>UndergraduateStudent22@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent22</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent220 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent220">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent220@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent220</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent221 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent221">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor8"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent221@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent221</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent222 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent222">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent222@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent222</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent223 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent223">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor7"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent223@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent223</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent224 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent224">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor6"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course36"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course37"/>
+        <ub:emailAddress>UndergraduateStudent224@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent224</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent225 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent225">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent225@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent225</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent226 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent226">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course37"/>
+        <ub:emailAddress>UndergraduateStudent226@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent226</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent227 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent227">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent227@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent227</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent228 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent228">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent228@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent228</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent229 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent229">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent229@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent229</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent23">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course34"/>
+        <ub:emailAddress>UndergraduateStudent23@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent23</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent230 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent230">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor0"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent230@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent230</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent231 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent231">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course37"/>
+        <ub:emailAddress>UndergraduateStudent231@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent231</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent232 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent232">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor2"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course34"/>
+        <ub:emailAddress>UndergraduateStudent232@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent232</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent233 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent233">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course34"/>
+        <ub:emailAddress>UndergraduateStudent233@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent233</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent234 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent234">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course34"/>
+        <ub:emailAddress>UndergraduateStudent234@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent234</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent235 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent235">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent235@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent235</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent236 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent236">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course34"/>
+        <ub:emailAddress>UndergraduateStudent236@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent236</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent237 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent237">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course38"/>
+        <ub:emailAddress>UndergraduateStudent237@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent237</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent238 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent238">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent238@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent238</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent239 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent239">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course39"/>
+        <ub:emailAddress>UndergraduateStudent239@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent239</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent24">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent24@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent24</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent240 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent240">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course38"/>
+        <ub:emailAddress>UndergraduateStudent240@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent240</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent241 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent241">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent241@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent241</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent242 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent242">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course37"/>
+        <ub:emailAddress>UndergraduateStudent242@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent242</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent243 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent243">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent243@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent243</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent244 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent244">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course37"/>
+        <ub:emailAddress>UndergraduateStudent244@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent244</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent245 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent245">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent245@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent245</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent246 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent246">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent246@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent246</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent247 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent247">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor1"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent247@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent247</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent248 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent248">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course1"/>
+        <ub:emailAddress>UndergraduateStudent248@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent248</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent249 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent249">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent249@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent249</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent25">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course38"/>
+        <ub:emailAddress>UndergraduateStudent25@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent25</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent250 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent250">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent250@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent250</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent251 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent251">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent251@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent251</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent252 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent252">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent252@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent252</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent253 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent253">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course0"/>
+        <ub:emailAddress>UndergraduateStudent253@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent253</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent254 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent254">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course38"/>
+        <ub:emailAddress>UndergraduateStudent254@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent254</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent285 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent285">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent285@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent285</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent334 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent334">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor0"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent334@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent334</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent335 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent335">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent335@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent335</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent95">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:advisor rdf:resource="http://www.Department0.University0.edu/FullProfessor3"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent95@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent95</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent96 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent96">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent96@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent96</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent97 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent97">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course10"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course39"/>
+        <ub:emailAddress>UndergraduateStudent97@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent97</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent98">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:emailAddress>UndergraduateStudent98@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent98</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/UndergraduateStudent99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/UndergraduateStudent99">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"/>
+        <ub:memberOf rdf:resource="http://www.Department0.University0.edu"/>
+        <ub:takesCourse rdf:resource="http://www.Department0.University0.edu/Course1"/>
+        <ub:emailAddress>UndergraduateStudent99@Department0.University0.edu</ub:emailAddress>
+        <ub:name>UndergraduateStudent99</ub:name>
+        <ub:telephone>xxx-xxx-xxxx</ub:telephone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor0/Publication0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor0/Publication0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor0"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent113"/>
+        <ub:name>Publication0</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor0/Publication5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor0/Publication5">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor0"/>
+        <ub:name>Publication5</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor1/Publication0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor1/Publication0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor1"/>
+        <ub:name>Publication0</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor1/Publication5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor1/Publication5">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor1"/>
+        <ub:name>Publication5</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor2/Publication0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor2/Publication0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor2"/>
+        <ub:name>Publication0</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor3/Publication0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor3/Publication0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor3"/>
+        <ub:name>Publication0</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor4/Publication0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor4/Publication0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor4"/>
+        <ub:name>Publication0</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor5/Publication0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor5/Publication0">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor5"/>
+        <ub:name>Publication0</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor5/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor5/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor5"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent92"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor6/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor6/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor6"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssistantProfessor6/Publication8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssistantProfessor6/Publication8">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/AssistantProfessor6"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent114"/>
+        <ub:name>Publication8</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssociateProfessor0/Publication5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssociateProfessor0/Publication5">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:name>Publication5</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssociateProfessor0/Publication8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssociateProfessor0/Publication8">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:name>Publication8</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssociateProfessor1/Publication5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssociateProfessor1/Publication5">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:name>Publication5</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssociateProfessor2/Publication14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssociateProfessor2/Publication14">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:name>Publication14</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssociateProfessor3/Publication14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssociateProfessor3/Publication14">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:name>Publication14</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssociateProfessor7/Publication10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssociateProfessor7/Publication10">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:name>Publication10</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssociateProfessor8/Publication10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssociateProfessor8/Publication10">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:name>Publication10</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssociateProfessor9/Publication10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssociateProfessor9/Publication10">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:name>Publication10</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/AssociateProfessor9/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/AssociateProfessor9/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor0/Publication10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor0/Publication10">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor0"/>
+        <ub:name>Publication10</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor0/Publication11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor0/Publication11">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor0"/>
+        <ub:name>Publication11</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor0/Publication14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor0/Publication14">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor0"/>
+        <ub:name>Publication14</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor0/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor0/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor0"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent110"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent2"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor1/Publication11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor1/Publication11">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor1"/>
+        <ub:name>Publication11</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor1/Publication14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor1/Publication14">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor1"/>
+        <ub:name>Publication14</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor1/Publication17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor1/Publication17">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor1"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent24"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent86"/>
+        <ub:name>Publication17</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor1/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor1/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor1"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent111"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor2/Publication11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor2/Publication11">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor2"/>
+        <ub:name>Publication11</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor2/Publication17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor2/Publication17">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor2"/>
+        <ub:name>Publication17</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor2/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor2/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor2"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor2/Publication6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor2/Publication6">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor2"/>
+        <ub:name>Publication6</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor3/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor3/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor3"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor3/Publication6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor3/Publication6">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor3"/>
+        <ub:name>Publication6</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor4/Publication17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor4/Publication17">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor4"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent2"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent21"/>
+        <ub:name>Publication17</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor4/Publication18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor4/Publication18">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor4"/>
+        <ub:name>Publication18</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor4/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor4/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor4"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor4/Publication6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor4/Publication6">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor4"/>
+        <ub:name>Publication6</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor5/Publication2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor5/Publication2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor5"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent85"/>
+        <ub:name>Publication2</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor5/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor5/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor5"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor5/Publication7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor5/Publication7">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor5"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent124"/>
+        <ub:name>Publication7</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor5/Publication9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor5/Publication9">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor5"/>
+        <ub:name>Publication9</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor6/Publication2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor6/Publication2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor6"/>
+        <ub:name>Publication2</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor6/Publication3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor6/Publication3">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor6"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent115"/>
+        <ub:name>Publication3</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor6/Publication4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor6/Publication4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor6"/>
+        <ub:name>Publication4</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor6/Publication7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor6/Publication7">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor6"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent89"/>
+        <ub:name>Publication7</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor6/Publication9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor6/Publication9">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor6"/>
+        <ub:name>Publication9</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor7/Publication16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor7/Publication16">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor7"/>
+        <ub:name>Publication16</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor7/Publication17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor7/Publication17">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor7"/>
+        <ub:name>Publication17</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor7/Publication18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor7/Publication18">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor7"/>
+        <ub:name>Publication18</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor7/Publication2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor7/Publication2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor7"/>
+        <ub:name>Publication2</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor7/Publication4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor7/Publication4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor7"/>
+        <ub:name>Publication4</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor7/Publication7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor7/Publication7">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor7"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent85"/>
+        <ub:name>Publication7</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor8/Publication1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor8/Publication1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor8"/>
+        <ub:name>Publication1</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor8/Publication16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor8/Publication16">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor8"/>
+        <ub:name>Publication16</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor8/Publication2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor8/Publication2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor8"/>
+        <ub:name>Publication2</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor8/Publication4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor8/Publication4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor8"/>
+        <ub:name>Publication4</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor8/Publication7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor8/Publication7">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor8"/>
+        <ub:name>Publication7</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor9/Publication1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor9/Publication1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor9"/>
+        <ub:name>Publication1</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor9/Publication16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor9/Publication16">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor9"/>
+        <ub:name>Publication16</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor9/Publication18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor9/Publication18">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor9"/>
+        <ub:name>Publication18</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor9/Publication2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor9/Publication2">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor9"/>
+        <ub:name>Publication2</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor9/Publication4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor9/Publication4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor9"/>
+        <ub:name>Publication4</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor9/Publication7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor9/Publication7">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor9"/>
+        <ub:name>Publication7</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/FullProfessor9/Publication9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/FullProfessor9/Publication9">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/FullProfessor9"/>
+        <ub:name>Publication9</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer0/Publication1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer0/Publication1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/Lecturer0"/>
+        <ub:name>Publication1</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer1/Publication1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer1/Publication1">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/GraduateStudent131"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/Lecturer1"/>
+        <ub:name>Publication1</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.Department0.University0.edu/Lecturer6/Publication4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.Department0.University0.edu/Lecturer6/Publication4">
+        <rdf:type rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"/>
+        <ub:publicationAuthor rdf:resource="http://www.Department0.University0.edu/Lecturer6"/>
+        <ub:name>Publication4</ub:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor"/>
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor"/>
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor"/>
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper"/>
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle"/>
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer"/>
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc"/>
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor"/>
+            <rdf:Description rdf:about="http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1544912147108" name="duplicate:file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl" uri="University216.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1544912147108" name="duplicate:file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl" uri="University301.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1544912147108" name="duplicate:file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl" uri="University509.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1544912147108" name="duplicate:file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl" uri="University149.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1544912147108" name="duplicate:http://swat.cse.lehigh.edu/onto/univ-bench.owl" uri="univ-bench.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1544912147108" name="duplicate:http://swat.cse.lehigh.edu/onto/univ-bench.owl" uri="univ-bench-1.owl"/>
+    </group>
+</catalog>

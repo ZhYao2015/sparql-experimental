@@ -1,0 +1,9 @@
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix ub: <http://swat.cse.lehigh.edu/onto/univ-bench.owl#>
+select ?X ?Z
+where
+{
+ {?X rdf:type ub:GraduateStudent.
+ ?X ub:advisor ?Y. }
+ {?Z ub:publicationAuthor ?Y.}
+}
