@@ -1,0 +1,9 @@
+PREFIX ex: <http://www.co-ode.org/ontologies/ont.owl#>
+SELECT ?city ?airport
+WHERE 
+{
+  {?city <rdf:type> ex:City}
+  {?airport <rdf:type> ex:Airport}
+  {?city ex:connect*/ex:hasAirport ?Airport}	
+ 
+}

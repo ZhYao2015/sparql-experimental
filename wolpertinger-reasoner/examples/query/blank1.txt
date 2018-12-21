@@ -1,0 +1,5 @@
+PREFIX : <http://example/uni/>
+SELECT ?stu1 ?stu2 WHERE{
+	{?stu1	:supervisedBy ?prof.}
+  	{?stu2 :supervisedBy ?prof.} 		
+}

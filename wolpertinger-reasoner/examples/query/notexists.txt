@@ -1,0 +1,8 @@
+PREFIX ex: <http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#>
+SELECT ?city (COUNT(?airport) AS ?NUM)
+WHERE 
+{
+ 	{?city ex:hasAirport ?airport}
+ 	
+}GROUP BY ?city
+

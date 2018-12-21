@@ -1,0 +1,7 @@
+PREFIX ex: <http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#>
+SELECT ?city
+WHERE 
+{
+  {ex:FCO  ex:connect*/^ex:hasAirport ?city}	
+ 
+}

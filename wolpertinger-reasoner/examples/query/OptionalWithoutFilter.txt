@@ -1,0 +1,8 @@
+PREFIX ex: <http://www.semanticweb.org/ushigo/ontologies/2018/3/untitled-ontology-47#>
+SELECT ?stu ?prof
+WHERE 
+{
+ 	{?stu rdf:type ex:Student} OPTIONAL {?stu ex:supervisedBy ?prof FILTER(?prof=ex:Sebastian)} 
+
+}
+

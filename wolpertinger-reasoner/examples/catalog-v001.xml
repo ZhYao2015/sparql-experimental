@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1540394669236" name="duplicate:http://www.semanticweb.org/ushigo/ontologies/2018/3/untitled-ontology-47" uri="KB/masterDB.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1540394669236" name="duplicate:http://www.semanticweb.org/ushigo/ontologies/2018/3/untitled-ontology-47" uri="KB/masterDB-domain.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1540394669236" name="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62" uri="KB/airline.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1540394669236" name="http://www.semanticweb.org/ushigo/ontologies/2018/9/untitled-ontology-105" uri="impo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1540394669236" name="duplicate:http://www.semanticweb.org/wolpertinger/sudoku" uri="fdomain.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1540394669236" name="duplicate:http://www.semanticweb.org/wolpertinger/sudoku" uri="Sudoku-9x9-Board-nc-instance-28.owl"/>
+    </group>
+</catalog>

@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#"
+     xml:base="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#connect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#connect"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#hasAirport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#hasAirport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#inc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#inc"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#hasPopulation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#hasPopulation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Conte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Conte"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Ciampino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Ciampino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#DeGaule"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#FRA"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Heathrow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#DeGaule -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#DeGaule">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Heathrow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#FRA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#FRA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#DeGaule"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Heathrow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Fiumiccino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Fiumiccino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#FRA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Haneda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Haneda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Heathrow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Heathrow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#DeGaule"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Fiumiccino"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#JFK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#JFK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#LAX"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Kansai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Kansai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#PEK"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#LAX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#LAX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#JFK"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Narita -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Narita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#PEK"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Pudong"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#PEK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#PEK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Kansai"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Pudong"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Pudong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Pudong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Airport"/>
+        <connect rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Kansai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#america -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#america">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Conte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#asia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#asia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Conte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#beijing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#beijing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#PEK"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#asia"/>
+        <hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.71</hasPopulation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#europe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#europe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Conte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#frankfurt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#frankfurt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#FRA"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#europe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#istanbul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#istanbul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#asia"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#europe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#london -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#london">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Heathrow"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#europe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#los_angeles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#los_angeles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#LAX"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#america"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#newyork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#newyork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#JFK"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#america"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#osaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#osaka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Kansai"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#asia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#paris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#paris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#DeGaule"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#europe"/>
+        <hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.24</hasPopulation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#rome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Ciampino"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Fiumiccino"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#europe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#shanghai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#shanghai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Pudong"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#asia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#tokyo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#tokyo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#City"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Haneda"/>
+        <hasAirport rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#Narita"/>
+        <inc rdf:resource="http://www.semanticweb.org/ushigo/ontologies/2018/8/untitled-ontology-62#asia"/>
+        <hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.27</hasPopulation>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

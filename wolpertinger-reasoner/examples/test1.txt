@@ -1,0 +1,7 @@
+PREFIX ex: <http://www.semanticweb.org/ushigo/ontologies/2018/3/untitled-ontology-47#>
+
+SELECT ?name
+WHERE 
+{
+  ?name rdf:type ex:BusyProf .
+}

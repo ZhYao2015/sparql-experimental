@@ -1,0 +1,7 @@
+PREFIX ex: <http://www.semanticweb.org/ushigo/ontologies/2018/3/untitled-ontology-47#>
+SELECT ?name1 ?name2
+WHERE 
+{
+  {?name1 ex:supervisedBy ?p .} {?name2 ex:supervisedBy ?p.}
+  Filter(?name1<?name2)
+}

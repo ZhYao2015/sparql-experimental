@@ -1,0 +1,6 @@
+PREFIX ex: <http://test#>
+SELECT ?stu 
+WHERE 
+{
+  ?stu ex:hasID ?id. FILTER(NOT EXISTS{?stu ex:takes ?course})
+}

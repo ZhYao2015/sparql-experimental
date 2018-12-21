@@ -1,0 +1,417 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/wolpertinger/sudoku"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/wolpertinger/sudoku">
+    <Prefix name="" IRI="http://www.semanticweb.org/lschweizer/ontologies/2015/3/untitled-ontology-647#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents an empty 9x9 Sudokuboard game; i.e. no number is placed on any cell. Use one of the ABoxes (e.g. 9x9-Sudoku-Instance-01).</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI=":Three"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":s1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n88"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n76"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n52"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n92"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n48"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n36"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":s2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":r8"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":hasNumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n77"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n65"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n53"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n93"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n81"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n49"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n37"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n89"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":r7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":s9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n98"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n86"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n74"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Num"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n62"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Two"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n58"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n46"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n34"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":r2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":s4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n91"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n99"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n87"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n75"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n63"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n51"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Five"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":r9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n59"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":r1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":s3"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Col"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n44"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n96"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n84"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n72"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Four"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n68"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n56"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":r4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":s6"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Six"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n97"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n85"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":One"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n73"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n61"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n69"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n57"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":r3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":s5"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Row"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Eight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n66"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n54"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n94"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n82"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c8"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Seven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n38"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n78"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":r6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":s8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n55"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n43"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n95"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n83"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n71"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n39"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n79"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":n67"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Sqr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":r5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":s7"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Nine"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>:Col</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a column in 9x9 Sudoku.
+
+Each column has exactly 1 One ...Nine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>:Num</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents one of the numbers One ... Nine
+Initially we assign all 81 individuals n11...n99 to this class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>:Row</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents one of 9 Rows in a 9x9 Sudko.
+
+Each row has exactly 1 One ...Nine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>:Sqr</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents one of the 9 Squares in a 9x9 Sudoku.
+
+Each square has exactly 1 One ...Nine.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

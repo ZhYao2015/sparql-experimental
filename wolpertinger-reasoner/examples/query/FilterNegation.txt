@@ -1,0 +1,9 @@
+PREFIX ex: <http://www.semanticweb.org/ushigo/ontologies/2018/3/untitled-ontology-47#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?name ?prof
+WHERE 
+{
+  {?name ex:supervisedBy ?prof.}  
+  {?prof ex:researchInterest ?domain.}
+  Filter(?domain=ex:DataBase)
+}

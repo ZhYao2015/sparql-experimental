@@ -1,0 +1,8 @@
+PREFIX : <http://ex#>
+SELECT (count(?stu) AS ?cstu) (sum(?num) AS ?cnum)
+WHERE {
+
+  {?prof :supervise ?stu.}
+  {?stu :hasNum ?num.}
+}
+
