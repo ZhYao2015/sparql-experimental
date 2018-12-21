@@ -2,10 +2,15 @@
 
 About Files:
 1. arq-mem: A query engine for Jena ARQ using the "in-memory" dataset.
+
 2. rdf4j-demo : A query engine for RDF4J, both "in-memory" and "native" datasets are available.
+
 3. lubm-data: Datasets which are used in the evaluation without inference.
+
 4. lite-lubm: Ontologies which are used in the evaluation with inference.
+
 5. queries: Queries in Appendix.
+
 6. wolpertinger-reasoner: A fixed-domain reasoner, the translation of SPARQL query is its sub-feature.
 
 
@@ -13,7 +18,9 @@ About Files:
 Usage (wolpertinger-reasoner):
 
 Installation:
+
 cd wolpertinger-reasoner
+
 mvn clean install -DskipTests //Some out-of-date testcases are not deleted after a reconstruction
 
 Query:
