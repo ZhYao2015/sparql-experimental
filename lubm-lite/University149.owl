@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl#"
-     xml:base="file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl"
+     xml:base=""
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:ub="http://swat.cse.lehigh.edu/onto/univ-bench.owl#">
     <owl:Ontology rdf:about="file:/home/ushigo/Studium/mthes/benchmarks/lubm/onto/University0_0.owl">
-        <owl:imports rdf:resource="http://swat.cse.lehigh.edu/onto/univ-bench.owl"/>
+        <owl:imports rdf:resource="univ-bench.owl"/>
     </owl:Ontology>
     
 

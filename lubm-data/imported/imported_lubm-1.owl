@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/evaluation/lubm-1#"
-     xml:base="http://www.semanticweb.org/evaluation/lubm-1"
+     xml:base=""
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/evaluation/lubm-1">
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_0.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_1.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_10.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_11.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_12.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_13.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_14.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_2.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_3.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_4.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_5.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_6.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_7.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_8.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/University0_9.owl"/>
-        <owl:imports rdf:resource="file:///home/ushigo/Studium/mthes/lubm-generator/class/lubm-1/univ-bench-def.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_0.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_1.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_10.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_11.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_12.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_13.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_14.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_2.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_3.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_4.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_5.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_6.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_7.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_8.owl"/>
+        <owl:imports rdf:resource="../lubm-1/University0_9.owl"/>
+        <owl:imports rdf:resource="../lubm-1/univ-bench-def.owl"/>
     </owl:Ontology>
 </rdf:RDF>
 
