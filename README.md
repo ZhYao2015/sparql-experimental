@@ -33,7 +33,7 @@ Example:
 
 java -jar target/wolpertinger-reasoner-1.0.jar --translate=meta --q_translate=../queries/q1/q1-bgp-simple.txt   ../lubm-data/imported/imported-lubm-20.owl | clingo --enum-mode=cautious
 
-
+Clingo version: 4.5.4, 64bit.
 
 
 
