@@ -252,7 +252,7 @@ public class SPARQLPatternVisitor implements OpVisitor {
 		Set<String> var_p=vp.getVarSet();
 		Set<Var> var_e=ex.getVarsMentioned();
 		BindingHashMap binding=new BindingHashMap();
-		Node _null=NodeFactory.createLiteral("null");
+		Node _null=NodeFactory.createLiteral("_null");
 		
 		for(Var v:var_e) {
 			if(!var_p.contains(Tools.getProcessedNode(v,new ArrayList<String> ()))) {
@@ -768,7 +768,7 @@ public class SPARQLPatternVisitor implements OpVisitor {
 			var_p.addAll(sr);
 			
 			Set<Var> var_e=ex.getVarsMentioned();
-			Node _null=NodeFactory.createLiteral("null");
+			Node _null=NodeFactory.createLiteral("_null");
 			BindingHashMap binding=new BindingHashMap();
 			for(Var v:var_e) {
 				if(!var_p.contains(Tools.getProcessedNode(v, new ArrayList<String> ()))) {
