@@ -5,5 +5,5 @@ WHERE
 {
   {?name ex:supervisedBy ?prof.}  
   {?prof ex:researchInterest ?domain.}
-  Filter(?domain=ex:DataBase)
+  Filter(!(?domains=ex:DataBase))
 }

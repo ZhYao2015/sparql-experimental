@@ -138,10 +138,10 @@ public class SPARQLFilterExprVisitor implements ExprVisitor{
 			if(!gs.isEmpty()) {
 				axiom+=",";
 				for(int i=0;i<gs.size();i++) {
+					axiom+=gs.get(i);
 					if(i!=gs.size()-1) {
 						axiom+=",";
 					}
-					axiom+=gs.get(i);
 				}
 			}
 			axiom+=".";
