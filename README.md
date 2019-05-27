@@ -1,5 +1,12 @@
 # sparql-experimental 
-# Environment Linux
+
+## Special alert
+
+### For Windows users, please use the absolute path for reading ontologies, but for reading queries relative path can be used.
+### In both platform, When building the maven project, please skip the test by using options '-DskipTests'. It does not mean that tests cannot be passed, in fact its due to the version conflict of JUnit used by different contributors.
+
+## I apologize for the above-mentioned inconvenience.
+
 About Files:
 1. arq-mem: A query engine for Jena ARQ using the "in-memory" dataset.
 
