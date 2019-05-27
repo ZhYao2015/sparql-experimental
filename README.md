@@ -1,5 +1,5 @@
 # sparql-experimental 
-
+# Environment Linux
 About Files:
 1. arq-mem: A query engine for Jena ARQ using the "in-memory" dataset.
 
@@ -21,7 +21,10 @@ Installation:
 
 cd wolpertinger-reasoner
 
-mvn clean install -DskipTests //Some out-of-date testcases are not deleted after a reconstruction
+### mvn clean install -DskipTests 
+
+//Some out-of-date testcases are not deleted after a reconstruction
+//!This step is ###necessary!
 
 Query:
 We directly call the clingo on the terminal for the purpose of evaluation.
