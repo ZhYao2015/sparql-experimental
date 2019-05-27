@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/wolpertinger-reasoner"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/owlapi/owlapi-api/4.2.7/owlapi-api-4.2.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/tukaani/xz/1.5/xz-1.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/inject/guice/4.0/guice-4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/owlapi/owlapi-apibinding/4.2.7/owlapi-apibinding-4.2.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/owlapi/owlapi-impl/4.2.7/owlapi-impl-4.2.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/owlapi/owlapi-parsers/4.2.7/owlapi-parsers-4.2.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/owlapi/owlapi-oboformat/4.2.7/owlapi-oboformat-4.2.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/owlapi/owlapi-tools/4.2.7/owlapi-tools-4.2.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/owlapi/owlapi-fixers/4.2.7/owlapi-fixers-4.2.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/owlapi/owlapi-rio/4.2.7/owlapi-rio-4.2.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-model/2.7.16/sesame-model-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-util/2.7.16/sesame-util-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-api/2.7.16/sesame-rio-api-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-languages/2.7.16/sesame-rio-languages-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-datatypes/2.7.16/sesame-rio-datatypes-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-binary/2.7.16/sesame-rio-binary-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-n3/2.7.16/sesame-rio-n3-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-turtle/2.7.16/sesame-rio-turtle-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-nquads/2.7.16/sesame-rio-nquads-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-ntriples/2.7.16/sesame-rio-ntriples-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-rdfjson/2.7.16/sesame-rio-rdfjson-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.2.1/jackson-core-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-rdfxml/2.7.16/sesame-rio-rdfxml-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-trix/2.7.16/sesame-rio-trix-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-trig/2.7.16/sesame-rio-trig-2.7.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/jsonld-java/jsonld-java-sesame/0.5.0/jsonld-java-sesame-0.5.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/jsonld-java/jsonld-java/0.5.0/jsonld-java-0.5.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient-cache/4.2.5/httpclient-cache-4.2.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/semarglproject/semargl-sesame/0.6.1/semargl-sesame-0.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/semarglproject/semargl-core/0.6.1/semargl-core-0.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/semarglproject/semargl-rdfa/0.6.1/semargl-rdfa-0.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/semarglproject/semargl-rdf/0.6.1/semargl-rdf-0.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-configuration2/2.1/commons-configuration2-2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-simple/1.7.10/slf4j-simple-1.7.10.jar"/>
+	<classpathentry kind="var" path="M2_REPO/edu/stanford/protege/protege-common/5.2.0/protege-common-5.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/edu/stanford/protege/protege-editor-core/5.2.0/protege-editor-core-5.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/mdock/mdock/2.0.1/mdock-2.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/jgoodies/jgoodies-looks/2.5.3/jgoodies-looks-2.5.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/jgoodies/jgoodies-common/1.6.0/jgoodies-common-1.6.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/edu/stanford/protege/protege-editor-owl/5.2.0/protege-editor-owl-5.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/edu/stanford/protege/org.protege.xmlcatalog/1.0.5/org.protege.xmlcatalog-1.0.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
