@@ -29,9 +29,9 @@ Installation:
 cd wolpertinger-reasoner
 
 ### mvn clean install -DskipTests 
-
 //Some out-of-date testcases are not deleted after a reconstruction
-//!This step is ###necessary!
+
+
 
 Query:
 We directly call the clingo on the terminal for the purpose of evaluation.
