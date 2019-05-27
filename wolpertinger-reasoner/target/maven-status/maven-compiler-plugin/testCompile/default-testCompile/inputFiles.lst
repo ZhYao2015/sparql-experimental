@@ -1,6 +1,6 @@
-/home/ushigo/Studium/mthes/wolpertinger/wolpertinger-reasoner/src/test/java/org/semanticweb/wolpertinger/translation/meta/naive/MetaNaiveTranslationTest.java
-/home/ushigo/Studium/mthes/wolpertinger/wolpertinger-reasoner/src/test/java/org/semanticweb/wolpertinger/HierarchyTest.java
-/home/ushigo/Studium/mthes/wolpertinger/wolpertinger-reasoner/src/test/java/org/semanticweb/wolpertinger/sparql_alternative/ExistHandlerTest.java
-/home/ushigo/Studium/mthes/wolpertinger/wolpertinger-reasoner/src/test/java/org/semanticweb/wolpertinger/WolpertingerTest.java
-/home/ushigo/Studium/mthes/wolpertinger/wolpertinger-reasoner/src/test/java/org/semanticweb/wolpertinger/sparql_alternative/DirectSubstituteTest.java
-/home/ushigo/Studium/mthes/wolpertinger/wolpertinger-reasoner/src/test/java/org/semanticweb/wolpertinger/sparql_alternative/SPARQLPatternVisitorTest.java
+D:\git_repo\sparql-experimental\wolpertinger-reasoner\src\test\java\org\semanticweb\wolpertinger\sparql_alternative\SPARQLPatternVisitorTest.java
+D:\git_repo\sparql-experimental\wolpertinger-reasoner\src\test\java\org\semanticweb\wolpertinger\sparql_alternative\ExistHandlerTest.java
+D:\git_repo\sparql-experimental\wolpertinger-reasoner\src\test\java\org\semanticweb\wolpertinger\HierarchyTest.java
+D:\git_repo\sparql-experimental\wolpertinger-reasoner\src\test\java\org\semanticweb\wolpertinger\WolpertingerTest.java
+D:\git_repo\sparql-experimental\wolpertinger-reasoner\src\test\java\org\semanticweb\wolpertinger\translation\meta\naive\MetaNaiveTranslationTest.java
+D:\git_repo\sparql-experimental\wolpertinger-reasoner\src\test\java\org\semanticweb\wolpertinger\sparql_alternative\DirectSubstituteTest.java
