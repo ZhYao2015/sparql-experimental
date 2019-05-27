@@ -2,8 +2,8 @@
 
 ## Special alert
 
-### For Windows users, please use the absolute path for reading ontologies, but for reading queries relative path can be used.
-### In both platform, When building the maven project, please skip the test by using options '-DskipTests'. It does not mean that tests cannot be passed, in fact its due to the version conflict of JUnit used by different contributors.
+#### For Windows users, please use the absolute path for reading ontologies, but for reading queries relative path can be used.
+#### In both platforms, When building the maven project, please skip the test by using the option '-DskipTests'. It does not mean that our components do not work. In fact, it is due to the version conflict of JUnit used by different contributors.
 
 ## I apologize for the above-mentioned inconvenience.
 
