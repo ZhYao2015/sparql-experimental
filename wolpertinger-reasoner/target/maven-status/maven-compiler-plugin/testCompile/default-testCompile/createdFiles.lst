@@ -1,6 +1,0 @@
-org\semanticweb\wolpertinger\WolpertingerTest.class
-org\semanticweb\wolpertinger\sparql_alternative\SPARQLPatternVisitorTest.class
-org\semanticweb\wolpertinger\translation\meta\naive\MetaNaiveTranslationTest.class
-org\semanticweb\wolpertinger\sparql_alternative\ExistHandlerTest.class
-org\semanticweb\wolpertinger\HierarchyTest.class
-org\semanticweb\wolpertinger\sparql_alternative\DirectSubstituteTest.class

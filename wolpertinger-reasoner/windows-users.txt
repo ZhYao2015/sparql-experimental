@@ -1,0 +1,1 @@
+java -jar target/wolpertinger-reasoner-1.0.jar --translate=meta file:///D:/git_repo/sparql-experimental/lubm-data/imported/imported_lubm-1.owl --q_translate=../queries/q1/q1-aggregates.txt | clingo-4.5.4-win64/clingo-4.5.4-win64/clingo.exe

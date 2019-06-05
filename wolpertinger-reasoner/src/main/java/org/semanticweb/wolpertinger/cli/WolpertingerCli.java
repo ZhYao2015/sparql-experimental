@@ -498,13 +498,15 @@ public class WolpertingerCli {
 			PrintWriter output = new PrintWriter(System.out);
 			boolean direct = false;
 
-			URI base;
-			try {
-				base = new URI("file", System.getProperty("user.dir") + "/", null);
-			} catch (java.net.URISyntaxException e) {
-				throw new RuntimeException("unable to create default IRI base");
-			}
+//			URI base;
+//			try {
+//				base = new URI("file", System.getProperty("user.dir") + "/", null);
+//			} catch (java.net.URISyntaxException e) {
+//				throw new RuntimeException("unable to create default IRI base");
+//			}
 
+			URI base=(new File(System.getProperty("user.dir"))).toURI();
+			
 			Collection<IRI> ontologies = new LinkedList<IRI>();
 			Collection<ReasoningAction> reasoningActions = new LinkedList<ReasoningAction>();
 			Collection<TranslationAction> transActions = new LinkedList<WolpertingerCli.TranslationAction>();
